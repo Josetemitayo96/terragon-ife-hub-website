@@ -114,7 +114,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e89980;
+		color: blue;
 		text-decoration: none;
 	}
 
@@ -137,7 +137,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #646464;
+		color: black;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 0.5em 0;
@@ -2923,10 +2923,11 @@
 	}
 
 	#header {
-		background: #444;
+		/* background: #444; */
+		
 		color: #bbb;
 		cursor: default;
-		height: 3.25em;
+		height: 2.00em;
 		left: 0;
 		line-height: 3.25em;
 		position: fixed;
@@ -2953,6 +2954,7 @@
 			}
 		#header img{
 			vertical-align: middle;
+			margin-top: 1em;
 		}
 
 		#header nav {
@@ -2988,7 +2990,7 @@
 					}
 
 					#header nav > ul > li a:not(.button) {
-						color: #fff;
+						color: black;
 						display: inline-block;
 						text-decoration: none;
 						border: 0;
@@ -3065,7 +3067,7 @@
 		}
 
 			#header.alt nav > ul > li a:not(.button).icon:before {
-				color: rgba(255, 255, 255, 0.75);
+				color:black;
 			}
 
 			#header.alt nav > ul > li.active a:not(.button) {
@@ -3162,7 +3164,7 @@
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
-		color: #fff;
+		color:black;
 		padding: 12em 0 20em 0;
 		text-align: center;
 	}
@@ -3172,7 +3174,7 @@
 		}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #fff;
+			color: black;
 		}
 
 		#banner h2 {
@@ -3183,8 +3185,9 @@
 		}
 
 		#banner p {
-			font-size: 1.25em;
+			font-size: 1.6em;
 			margin-bottom: 1.75em;
+
 		}
 
 		#banner input[type="submit"],
@@ -3237,7 +3240,7 @@
 
 			#main > header p {
 				border-top: solid 2px #e5e5e5;
-				color: #777;
+				color: black;
 				display: inline-block;
 				font-style: normal;
 				margin: 1em 0 0 0;
@@ -3673,7 +3676,7 @@
 			}
 
 			h4 {
-				font-size: 1em;
+				font-size: 1.3em;
 			}
 
 		/* Section/Article */
